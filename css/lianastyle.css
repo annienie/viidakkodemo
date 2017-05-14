@@ -1,0 +1,271 @@
+﻿/* Liana Technologies stylesheet */
+
+body {
+  font-size: 16px;
+  font-family: Open Sans;
+}
+
+html {
+  min-height: 100%;
+}
+
+h3, h2, h4 {
+  color: #000;
+}
+
+p {
+  font-size: 17px;
+}
+
+.btn-primary.btn  {
+  background-color: #4C8930;
+  color: white;
+  border: 1px solid #4C8930;
+}
+
+.block-header {
+  padding: 20px;
+}
+
+#topmenu {
+  height: 50px;
+  background-color: #4C8930;
+}
+
+.navbar.navbar-default {
+  background-color: #fff;
+}
+
+#topmenu .navbar-default {
+  background-color: transparent;
+  border-color: #4C8930;
+}
+
+#topmenu .navbar-default .navbar-nav>li{
+    float: left;
+}
+
+#topmenu .navbar-default .navbar-right{
+    float: right;	
+}
+
+#topmenu .navbar-default ul.navbar-right{
+  margin: 0;
+}
+
+#topmenu .navbar-default .navbar-nav>li>a {
+  color: #fff;
+  padding: 15px;
+}
+
+.language {
+  margin-right: 15px;
+}
+
+#mainmenu > .navbar-default {
+  border-color: #fff;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+#mainmenu .navbar-brand > img {
+  margin-top: -20px;
+}
+
+#mainmenu .nav>li>a {
+  color: #666!important;
+}
+
+#content {
+  text-align: center;
+}
+
+#banner-wrapper {
+  margin-bottom: 50px;
+}
+
+#banner {
+  position: relative;
+}
+
+#bannerimage {
+  width: 100%;
+}
+
+#banner h1{
+  font-size: 65px;
+  color: #fff;
+  font-family: Open Sans;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.buttonXtraLarge {
+  padding: 13px;
+  font-size: 26px;
+  margin: 20px;
+}
+
+.dim {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+.picture {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.picture .img-responsive {
+  width: 100%;
+}
+
+.picture .dim {
+  border-radius: 6px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.picture span.vertical-align {
+  font-size: 30px;
+  color: #fff;
+}
+
+#smallpictures, #numbers {
+  margin-bottom: 50px;
+}
+
+.icon {
+  float: left;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#numbers h2 {
+  margin: 0;
+  font-size: 65px;
+  padding: 0px;
+  font-weight: 100;
+}
+
+#numbers p {
+  font-size: 23px;
+}
+
+#news {
+  background-color: #eee;
+}
+
+.news-wrapper {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 40px;
+  min-height: 170px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.date {
+  font-size: 13px;
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.newsText p {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+#references {
+  padding-bottom: 35px;
+}
+
+.border-grey {    
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#references .img-responsive {    
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#email {
+  min-width:350px;
+}
+
+#thankyou {
+  display: none;
+  margin-top: 10px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ddd;
+  margin-bottom: 0;
+}
+
+.reference-text {
+  min-height: 200px;
+  padding: 5px;
+}
+
+#newsletter {
+  padding-bottom: 35px;
+}
+
+#email-info {
+  margin-bottom: 20px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+
+#footer-heading h4 {
+  font-size: 19px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#footerlinks a {
+  padding: 10px;
+  color: #fff;
+}
+
+#contactUsBtn {
+  margin-top: 60px;
+}
+
+#sosialmedia {
+  float: right;
+  margin-top: 60px;  
+}
+
+#sosialmedia a {
+  color: #4C8930;
+}
